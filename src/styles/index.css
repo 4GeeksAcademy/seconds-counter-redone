@@ -1,12 +1,52 @@
+.clock-box {
+    height: 190px;
+  }
 
-/* 
-
-    You can write your own styles here...
+img{
+    height: 180px;
+}
+  
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .clock-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 5px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+  }
+  
+  
+  .seconds-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .seconds-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: #fff;
+    margin-right: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+  }
+  
